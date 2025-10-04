@@ -1,2 +1,2 @@
 # web-tech
-Web development for scratch
+Web development from scratch
