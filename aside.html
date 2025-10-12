@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="author" content="Silas Mmbigulu">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="description" content="HTML aside and artical elements">
+        <title>Aside article</title>
+        <style>
+            body {
+              display: flex;
+              flex-direction: column;
+              background-color: #000;
+            }
+
+            main {
+                display: flex;
+                flex: 1;
+                padding: 20px;
+            }
+            article {
+                flex: 3;
+                background: whitesmoke;
+                padding: 20px;
+                margin-right: 20px;
+            }
+            aside {
+                flex: 1;
+                background: #c0c0c0;
+                padding: 20px;
+                border-radius: 8px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>My Blog</h1>
+        </header>
+        <main>
+            <article>
+                <h3>Articles...</h3>
+                <p>
+                    Posted on <time datetime="10-09-2025">October 10, 2025</time> By Silas.
+                </p>
+                <p>
+                    The article tag is commonly used for content 
+                    such as blog posts, news articles, and user 
+                    comments.
+                </p>
+            </article>
+            <aside>
+                <h2>Related articles...</h2>
+                <ul type="disc">
+                    <li><a href="https://www.tutorialspoint.com">HTML Tutorilas</a></li>
+                    <li><a href="https://www.tutorialspoint.com">CSS Tutorials</a></li>
+                    <li><a href="https://www.tutorialspoint.com">Javascript Tutorials</a></li>
+                    <li><a href="https://www.tutorialspoint.com">Python Tutorials</a></li>
+                    <li><a href="https://www.tutorialspoint.com">C++ Tutorials</a></li>
+                    <li><a href="https://www.tutorialspoint.com">React Tutorials</a></li>
+                    <li><a href="https://www.tutorialspoint.com">Node.js Tutorials</a></li>
+                </ul>
+            </aside>
+        </main>
+        <hr>
+        &lt;&lt;&lt;&lt; &copy; <a href="about.html">About</a>&gt;&gt;&gt;&gt;
+    </body>
